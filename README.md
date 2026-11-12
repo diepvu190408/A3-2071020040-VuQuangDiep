@@ -1,28 +1,30 @@
 # A3 Portfolio cá nhân
 
-Portfolio cá nhân phục vụ bài tập lớn A3 môn FIT4014 – Thiết kế Web và Triển khai Hệ thống Phần mềm.
+Mình thực hiện portfolio cá nhân này trong bài tập lớn A3 môn FIT4014 – Thiết kế Web và Triển khai Hệ thống Phần mềm. Website giới thiệu thông tin cơ bản và quá trình học tập của mình.
 
 ## Thông tin sinh viên
 
 - Họ tên: Vũ Quang Điệp
 - Mã sinh viên: 2071020040
 - Trường: Đại học Đại Nam
-- Ngành: Công nghệ thông tin
+- Khoa: Công nghệ thông tin
 - Lớp: CNTT 20-04
 
-## Ý tưởng và bố cục dự kiến
+## Nội dung portfolio
 
-Website dùng phong cách hiện đại, chuyên nghiệp với nền xanh đen/đen và điểm nhấn xanh neon. Nội dung dự kiến được sắp xếp thành:
+Mình sắp xếp nội dung thành các mục:
 
-1. Trang chủ và lời giới thiệu ngắn.
+1. Trang chủ.
 2. Giới thiệu bản thân.
-3. Kỹ năng CNTT.
+3. Kỹ năng.
 4. Quá trình học tập.
 5. Dự án.
 6. Sở thích.
-7. Liên hệ.
+7. Mục tiêu học tập và nghề nghiệp.
+8. Thông tin liên hệ.
+9. Footer.
 
-Trang chủ sẽ có khu vực ảnh đại diện. Chỉ sử dụng ảnh do sinh viên cung cấp hoặc chọn; không tạo ảnh giả làm ảnh thật. Các kỹ năng, dự án và thông tin liên hệ cần được xác nhận trước khi đưa vào nội dung.
+Mình sẽ tự bổ sung kỹ năng, dự án, sở thích, mục tiêu và thông tin liên hệ khi có nội dung cụ thể muốn chia sẻ. Mình không đưa vào thành tích hoặc thông tin chưa xác nhận.
 
 ## Cấu trúc dự án
 
@@ -39,16 +41,21 @@ Trang chủ sẽ có khu vực ảnh đại diện. Chỉ sử dụng ảnh do s
 └── AI_LOG.md
 ```
 
-## Công nghệ dự kiến
+## Công nghệ
 
 - HTML5, CSS3 và JavaScript thuần.
-- Không thêm thư viện ngoài nếu không có nhu cầu cụ thể.
-- Bố cục responsive cho máy tính, máy tính bảng và điện thoại.
+- Không sử dụng thư viện ngoài.
+- CSS hiện chỉ có quy tắc cơ bản để nội dung dễ đọc.
+- JavaScript chưa được sử dụng vì giai đoạn nội dung không cần chức năng tương tác.
 
 ## Chạy dự án
 
-Ở giai đoạn hiện tại, có thể mở `index.html` trực tiếp bằng trình duyệt. Cách chạy và các bước kiểm tra giao diện/chức năng sẽ được cập nhật khi website được triển khai.
+Mở `index.html` trực tiếp bằng trình duyệt để đọc nội dung. Các liên kết điều hướng ở đầu trang đưa đến từng mục tương ứng.
+
+## Phần mình thực hiện và AI hỗ trợ
+
+Thông tin cá nhân trong trang do mình cung cấp. Mình có sử dụng AI để hỗ trợ sắp xếp nội dung và soạn HTML, CSS cơ bản; mình cần tự rà soát nội dung và hiểu các phần code trước khi nộp bài.
 
 ## Tiến độ
 
-- Ngày 1: Phân tích yêu cầu, thống nhất bố cục và tạo cấu trúc dự án.
+- Ngày 1: Xây dựng nội dung HTML cho các mục và thêm CSS cơ bản để dễ đọc.

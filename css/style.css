@@ -1,1 +1,4 @@
-/* CSS nền tảng sẽ được xây dựng trong Ngày 2. */
+/* Giữ khoảng cách dòng dễ đọc; phần trình bày sẽ được làm ở Ngày 2. */
+body {
+  line-height: 1.6;
+}

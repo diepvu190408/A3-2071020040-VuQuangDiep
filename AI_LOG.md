@@ -2,6 +2,7 @@
 
 ## Ngày 1
 
-- Công cụ AI hỗ trợ phân tích yêu cầu, đề xuất bố cục website và tạo khung ban đầu cho các tệp dự án.
-- Phần nội dung học tập, kỹ năng, dự án, sở thích và liên hệ cần được sinh viên rà soát, bổ sung bằng thông tin có thật.
-- Chưa tạo ảnh đại diện và chưa khẳng định giao diện/chức năng đã được kiểm thử.
+- Mình có sử dụng AI để tham khảo cách sắp xếp nội dung và hỗ trợ chỉnh sửa HTML, CSS cơ bản.
+- Mình cung cấp và chịu trách nhiệm rà soát thông tin cá nhân trong portfolio.
+- Những nội dung mình chưa cung cấp như kỹ năng cụ thể, dự án, sở thích, mục tiêu và thông tin liên hệ được để bổ sung sau.
+- Mình chưa thêm ảnh đại diện hoặc JavaScript. Mình chưa kiểm tra trang trên trình duyệt.
