@@ -1,5 +1,13 @@
 # Nhật ký thay đổi
 
+## Ngày 2
+
+- Mình thiết kế lại giao diện bằng CSS với nền xanh đen, chữ sáng và màu xanh neon làm điểm nhấn.
+- Mình sắp xếp các mục thành thẻ hai cột trên màn hình rộng, có khoảng cách, đường viền và hiệu ứng hover nhẹ; bố cục tự chuyển thành một cột khi màn hình hẹp.
+- Mình tạo điểm nhấn cho phần giới thiệu đầu trang, nút xem thông tin và menu điều hướng; không thêm thư viện hay chức năng JavaScript.
+- Mình bổ sung THPT Cảm Ân và liên kết GitHub vào các mục học tập, liên hệ theo thông tin đã cung cấp.
+- Mình giữ nguyên các phần kỹ năng, dự án và thông tin khác đang chờ nội dung cụ thể.
+
 ## Ngày 1
 
 - Mình tạo cấu trúc HTML, CSS, JavaScript và thư mục ảnh cho portfolio.

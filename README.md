@@ -45,7 +45,7 @@ Mình sẽ tự bổ sung kỹ năng, dự án, sở thích, mục tiêu và th�
 
 - HTML5, CSS3 và JavaScript thuần.
 - Không sử dụng thư viện ngoài.
-- CSS hiện chỉ có quy tắc cơ bản để nội dung dễ đọc.
+- CSS tạo giao diện nền xanh đen, điểm nhấn xanh neon, thẻ nội dung và bố cục responsive.
 - JavaScript chưa được sử dụng vì giai đoạn nội dung không cần chức năng tương tác.
 
 ## Chạy dự án
@@ -59,3 +59,4 @@ Thông tin cá nhân trong trang do mình cung cấp. Mình có sử dụng AI �
 ## Tiến độ
 
 - Ngày 1: Xây dựng nội dung HTML cho các mục và thêm CSS cơ bản để dễ đọc.
+- Ngày 2: Hoàn thiện giao diện bằng CSS, bổ sung điều hướng xem thông tin, THPT Cảm Ân và liên kết GitHub đã cung cấp.
