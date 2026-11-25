@@ -1,6 +1,6 @@
 # A3 Portfolio cá nhân
 
-Mình thực hiện portfolio cá nhân này trong bài tập lớn A3 môn FIT4014. Website giới thiệu bản thân, học vấn, kỹ năng đang rèn luyện, sở thích và mục tiêu của mình.
+Mình thực hiện portfolio cá nhân này trong bài tập lớn A3 môn FIT4014. Website giới thiệu bản thân, quê hương, gia đình, học vấn, kỹ năng đang rèn luyện, dự án thực hành, sở thích và mục tiêu của mình.
 
 ## Thông tin sinh viên
 
@@ -16,11 +16,14 @@ Mình sắp xếp nội dung thành các mục:
 
 1. Trang chủ.
 2. Giới thiệu bản thân.
-3. Kỹ năng đang học và rèn luyện.
-4. Lộ trình học tập.
-5. Sở thích: Minecraft, nghe nhạc, Tiên Nghịch, Lamborghini Revuelto và Cristiano Ronaldo.
-6. Mục tiêu học tập.
-7. Thông tin liên hệ và footer.
+3. Quê hương Bảo Ái, Lào Cai và gia đình gồm năm thành viên.
+4. Kỹ năng đang học và rèn luyện.
+5. Lộ trình học tập.
+6. Dự án thực hành portfolio cá nhân trong khuôn khổ FIT4014 A3.
+7. Mini game khủng long nhảy qua xương rồng.
+8. Sở thích: Minecraft, nghe nhạc, Tiên Nghịch, Lamborghini Revuelto và Cristiano Ronaldo.
+9. Mục tiêu học tập.
+10. Thông tin liên hệ và footer.
 
 ## Cấu trúc dự án
 
@@ -42,7 +45,9 @@ Mình sắp xếp nội dung thành các mục:
 - HTML5, CSS3 và JavaScript thuần.
 - Không sử dụng thư viện ngoài.
 - CSS tạo giao diện xanh đen – xanh neon và chế độ sáng; nội dung được giới hạn tối đa 1160px, chia hai cột trên máy tính và chuyển thành một cột ở màn hình rộng tối đa 820px.
-- JavaScript thuần tạo nền hạt, hiệu ứng xuất hiện khi cuộn, ánh sáng con trỏ, điều hướng chủ động, thanh tiến trình và nút quay về đầu trang.
+- JavaScript thuần tạo nền trời đêm có trăng/sao ở chế độ tối và tuyết dạng sprite Canvas rơi, lắc nhẹ theo gió ở chế độ sáng; hiệu ứng nền giảm chuyển động khi bật `prefers-reduced-motion`.
+- Mini game khủng long dùng Canvas, có điểm số, tốc độ tăng dần, màn Game Over, chơi lại, phím Space/mũi tên lên và nút nhảy cảm ứng.
+- JavaScript còn tạo hiệu ứng xuất hiện khi cuộn, ánh sáng con trỏ, điều hướng chủ động, thanh tiến trình và nút quay về đầu trang.
 - Thư viện ảnh hỗ trợ đóng, chuyển ảnh bằng nút hoặc phím mũi tên, và vuốt trên thiết bị cảm ứng.
 - Có thể chuyển giao diện sáng/tối và tiếng Việt/Anh; lựa chọn được lưu trong `localStorage`.
 - Menu điện thoại và các nút tương tác được tối ưu cho cảm ứng; hiệu ứng chuyển động được tắt hoặc giảm khi bật `prefers-reduced-motion`.
@@ -60,22 +65,20 @@ Thông tin cá nhân trong trang do mình cung cấp. Mình có sử dụng AI �
 ## Hướng dẫn kiểm tra website
 
 1. Mở `index.html` bằng trình duyệt trên máy tính.
-2. Dùng menu điều hướng để kiểm tra các mục giới thiệu, kỹ năng, học vấn, sở thích, mục tiêu và liên hệ.
-3. Mở công cụ dành cho nhà phát triển (F12), bật chế độ thiết bị (Ctrl+Shift+M), rồi lần lượt đặt chiều rộng 1920px, 1366px, 1024px, 768px, 390px và 320px.
+2. Dùng menu điều hướng để kiểm tra các mục giới thiệu, quê hương/gia đình, kỹ năng, học tập, dự án, mini game, sở thích, mục tiêu và liên hệ.
+3. Mở công cụ dành cho nhà phát triển (F12), bật chế độ thiết bị (Ctrl+Shift+M), rồi lần lượt đặt chiều rộng 320px, 375px, 390px, 768px, 1024px, 1366px và 1920px.
 4. Ở mỗi kích thước, kiểm tra menu, chữ, các thẻ nội dung và liên kết GitHub; cuộn ngang để xác nhận trang không bị tràn theo chiều ngang.
-5. Mình đã kiểm tra bằng mô phỏng viewport của trình duyệt ở cả sáu chiều rộng trên: không có tràn ngang, các thẻ nằm trong khung và liên kết menu cao tối thiểu 44px. Đây là kết quả mô phỏng trên trình duyệt, chưa phải kiểm tra trên thiết bị thật.
-6. Kiểm tra giao diện sáng/tối và VI/EN sau khi tải lại trang; thử thanh tiến trình, nút về đầu trang, menu, ảnh Lightbox và các trạng thái lỗi/hợp lệ của biểu mẫu.
-7. Bật `prefers-reduced-motion` trong công cụ dành cho nhà phát triển: nền hạt và con trỏ sáng cần dừng/ẩn; nội dung và chức năng điều hướng vẫn dùng được.
+5. Sau mỗi lần cập nhật, hãy kiểm tra ở bảy chiều rộng trên. Kết quả kiểm tra gần nhất được ghi trong CHANGELOG.md; mô phỏng viewport không thay thế kiểm tra trên thiết bị thật.
+6. Kiểm tra giao diện sáng/tối và VI/EN sau khi tải lại trang; thử thanh tiến trình, nút về đầu trang, menu, ảnh Lightbox, mục Dự án, mini game và các trạng thái lỗi/hợp lệ của biểu mẫu.
+7. Bật `prefers-reduced-motion` trong công cụ dành cho nhà phát triển: hiệu ứng nền cần đứng yên; nội dung và chức năng điều hướng vẫn dùng được.
 8. Nếu có thể, mở website trên điện thoại thật để kiểm tra thao tác chạm và khả năng đọc trước khi nộp.
 
-## Tiến độ
+## Trạng thái rà soát
 
-- Ngày 1: Xây dựng nội dung HTML cho các mục và thêm CSS cơ bản để dễ đọc.
-- Ngày 2: Hoàn thiện giao diện bằng CSS, bổ sung điều hướng, thông tin học tập và liên kết GitHub đã cung cấp.
-- Ngày 3: Hoàn thiện nội dung giới thiệu, kỹ năng, học vấn, sở thích và mục tiêu; giữ nguyên thiết kế CSS và không thêm hình ảnh hoặc JavaScript.
-- Ngày 4: Tinh chỉnh bố cục responsive cho máy tính, tablet và điện thoại; kiểm tra mô phỏng ở sáu chiều rộng từ 320px đến 1920px.
-- Nâng cấp tương tác: bổ sung nền hạt, scroll reveal, con trỏ neon, đổi ngôn ngữ, lightbox, điều hướng chủ động, tiến trình cuộn và kiểm tra biểu mẫu.
-- Điều chỉnh giao diện: bỏ mục Dự án học tập và quả cầu công nghệ theo yêu cầu.
+- Bản trong repository hiện có các mục Dự án, Quê hương và Gia đình, mini game, biểu mẫu kiểm tra phía trình duyệt, cùng hiệu ứng nền theo giao diện.
+- Mô phỏng viewport trong trình duyệt ở 320, 375, 390, 768, 1024, 1366 và 1920px không phát hiện tràn ngang; nội dung chính nằm trong khung nhìn.
+- Lần kiểm tra website GitHub Pages ngày 25/11/2026 cho thấy bản public chưa có một số cập nhật trong repository, gồm mục Dự án, Quê hương và Gia đình và mini game. Cần push các thay đổi sau khi rà soát để cập nhật trang public.
+- Chưa có bộ test tự động trong repository; mô phỏng trình duyệt không thay thế việc thử trên thiết bị thật.
 
 ## Tạo commit và push
 

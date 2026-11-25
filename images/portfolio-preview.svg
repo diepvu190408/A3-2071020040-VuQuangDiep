@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title description">
+  <title id="title">Minh họa portfolio cá nhân</title>
+  <desc id="description">Khung trình duyệt với giao diện xanh đậm, ảnh đại diện và các thẻ nội dung.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102139"/>
+      <stop offset="1" stop-color="#050d1b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#59dcff"/>
+      <stop offset="1" stop-color="#007d9b"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="#07101e"/>
+  <rect x="48" y="38" width="864" height="464" rx="18" fill="url(#background)" stroke="#287294" stroke-width="2"/>
+  <path d="M48 56a18 18 0 0 1 18-18h828a18 18 0 0 1 18 18v48H48z" fill="#0b1729"/>
+  <circle cx="78" cy="71" r="8" fill="#ff7c84"/>
+  <circle cx="106" cy="71" r="8" fill="#ffd166"/>
+  <circle cx="134" cy="71" r="8" fill="#59dcff"/>
+  <rect x="198" y="58" width="560" height="26" rx="13" fill="#14253b"/>
+  <circle cx="162" cy="218" r="74" fill="#102139" stroke="#287294" stroke-width="3"/>
+  <circle cx="162" cy="194" r="32" fill="#59dcff" opacity=".8"/>
+  <path d="M108 278c8-43 34-64 54-64s46 21 54 64" fill="#287294"/>
+  <rect x="280" y="151" width="310" height="16" rx="8" fill="#59dcff" opacity=".75"/>
+  <rect x="280" y="185" width="470" height="34" rx="8" fill="#e7f2ff" opacity=".92"/>
+  <rect x="280" y="238" width="490" height="12" rx="6" fill="#a7b8cc" opacity=".7"/>
+  <rect x="280" y="260" width="435" height="12" rx="6" fill="#a7b8cc" opacity=".5"/>
+  <rect x="280" y="304" width="142" height="42" rx="8" fill="url(#accent)"/>
+  <rect x="88" y="372" width="238" height="92" rx="12" fill="#0c1a2c" stroke="#1d304b"/>
+  <rect x="350" y="372" width="238" height="92" rx="12" fill="#0c1a2c" stroke="#1d304b"/>
+  <rect x="612" y="372" width="260" height="92" rx="12" fill="#0c1a2c" stroke="#1d304b"/>
+  <rect x="110" y="393" width="112" height="10" rx="5" fill="#59dcff" opacity=".8"/>
+  <rect x="110" y="414" width="184" height="8" rx="4" fill="#a7b8cc" opacity=".55"/>
+  <rect x="372" y="393" width="112" height="10" rx="5" fill="#59dcff" opacity=".8"/>
+  <rect x="372" y="414" width="184" height="8" rx="4" fill="#a7b8cc" opacity=".55"/>
+  <rect x="634" y="393" width="112" height="10" rx="5" fill="#59dcff" opacity=".8"/>
+  <rect x="634" y="414" width="204" height="8" rx="4" fill="#a7b8cc" opacity=".55"/>
+</svg>

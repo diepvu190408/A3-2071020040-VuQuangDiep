@@ -1,5 +1,36 @@
 # Nhật ký sử dụng AI
 
+## Rà soát trước bàn giao
+
+- Mình nhờ AI kiểm tra lỗi khởi tạo tương tác khi trình duyệt chưa chạy khung hình nền đầu tiên và chỉnh lại thời điểm vẽ nền ban đầu.
+- Mình kiểm tra mô phỏng responsive ở bảy chiều rộng và xác nhận website GitHub Pages đang cũ hơn bản trong repository; chưa push và chưa thử trên thiết bị thật.
+- Theo yêu cầu, mình thêm hiệu ứng chữ bảy màu cho tiêu đề trang chủ và tôn trọng cài đặt giảm chuyển động.
+
+## Thêm mục Quê hương và gia đình
+
+- Mình nhờ AI trình bày thông tin Bảo Ái, Lào Cai và năm thành viên gia đình theo nội dung đã cung cấp; không tự thêm tên hay nghề nghiệp.
+- Mình dùng minh họa CSS trừu tượng thay cho ảnh người thân, rồi kiểm tra mô phỏng responsive ở sáu chiều rộng từ 320px đến 1366px và kiểm tra điều hướng/VI-EN.
+- Theo yêu cầu tiếp theo, mình nhờ AI bỏ hình minh họa gia đình và biểu tượng ghim ở quê hương, giữ nguyên nội dung.
+- Mình chưa thử trực tiếp trên thiết bị thật trước khi nộp.
+
+## Tinh chỉnh hiệu ứng tuyết
+
+- Mình nhờ AI làm tuyết rơi tự nhiên hơn bằng các sprite Canvas có kích thước, tốc độ và độ lắc khác nhau; không thêm tệp GIF hay thư viện.
+- Mình kiểm tra ảnh canvas thay đổi theo thời gian và chuyển đổi theme trên trình duyệt; cần tiếp tục thử trên điện thoại thật để đánh giá hiệu năng.
+
+## Mini game và hiệu ứng nền theo giao diện
+
+- Mình dùng AI hỗ trợ tạo mini game khủng long bằng Canvas và thêm hiệu ứng trăng/sao, tuyết rơi phù hợp với chế độ tối/sáng; không thêm thư viện.
+- Mình kiểm tra mô phỏng viewport, bàn phím, nút nhảy, Game Over/chơi lại, lưu theme và chế độ giảm chuyển động trên trình duyệt.
+- Mình chưa thử trực tiếp trên điện thoại thật; cần tự kiểm tra trước khi nộp.
+
+## Bổ sung mục Dự án và rà soát biểu mẫu
+
+- Mình sử dụng AI hỗ trợ thêm một dự án thực hành FIT4014 A3, ghi rõ tính chất học tập và tạo ảnh minh họa; không thêm thành tích chưa được xác nhận.
+- Mình nhờ AI rà soát trạng thái xác thực của biểu mẫu, nhãn nút và thông báo để không gây hiểu nhầm rằng email đã được gửi.
+- Mình đã kiểm tra mô phỏng trình duyệt ở 320, 375, 390, 768, 1024 và 1366px; không phát hiện tràn ngang, lỗi JavaScript hoặc tài nguyên ảnh dự án không tải.
+- Mình vẫn cần tự kiểm tra trên thiết bị thật trước khi nộp.
+
 ## Điều chỉnh giao diện
 
 - Mình nhờ AI bỏ mục Dự án học tập và quả cầu công nghệ theo yêu cầu, đồng thời dọn CSS và JavaScript liên quan.

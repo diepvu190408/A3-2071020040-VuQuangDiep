@@ -1,5 +1,56 @@
 # Nhật ký thay đổi
 
+## Rà soát responsive và tương tác · 25/11/2026
+
+- Mình kiểm tra lại website ở 320, 375, 390, 768, 1024, 1366 và 1920px; không phát hiện tràn ngang hoặc hình ảnh bị thiếu.
+- Mình kiểm tra menu điện thoại, đổi VI/EN, đổi giao diện sáng/tối, xác thực biểu mẫu và mini game; các tương tác hoạt động đúng trong trình duyệt mô phỏng.
+- Mình bổ sung tối ưu vùng an toàn cho tai thác di động, cỡ chữ 16px cho ô nhập liệu để tránh tự động phóng trên iOS và ngăn cuộn chạm khi dùng Canvas game.
+- Mình thêm cơ chế đóng Lightbox dự phòng cho trình duyệt không hỗ trợ `dialog.close()`; phím Escape vẫn có thể đóng cửa sổ ảnh.
+
+## Rà soát trước bàn giao · 25/11/2026
+
+- Mình phát hiện các tương tác giao diện được khởi tạo trong khung hình Canvas đầu tiên; đã cho khung hình đầu tiên chạy đồng bộ để menu và điều khiển không phải chờ tab được vẽ tiếp.
+- Mình kiểm tra mô phỏng bản local ở 320, 375, 390, 768, 1024, 1366 và 1920px: không có tràn ngang, nội dung chính nằm trong khung nhìn.
+- Mình kiểm tra nhanh menu mở/đóng, đổi VI/EN, đổi giao diện sáng/tối, biểu mẫu với email sai/hợp lệ và trạng thái bắt đầu game; không thấy lỗi JavaScript trong lần kiểm tra này.
+- Website GitHub Pages hiện còn là bản cũ, thiếu một số phần đã có trong repository. Chưa push thay đổi và chưa thử trên thiết bị thật.
+- Mình thêm dải màu cầu vồng chuyển động nhẹ cho tiêu đề trang chủ; hiệu ứng tĩnh khi thiết bị bật giảm chuyển động.
+
+## Thêm mục Quê hương và gia đình
+
+- Mình thêm mục giới thiệu Bảo Ái, Lào Cai và gia đình có năm thành viên: bố, mẹ, chị gái, mình và em gái.
+- Nội dung nói ngắn gọn về nơi mình sinh ra, lớn lên và ý nghĩa của gia đình; không thêm tên, nghề nghiệp hay thông tin riêng tư khác.
+- Mình thêm liên kết điều hướng và bản dịch tiếng Anh; bố cục chuyển thành một cột trên điện thoại.
+- Theo yêu cầu tiếp theo, mình đã bỏ hình minh họa gia đình và biểu tượng ghim ở thẻ quê hương; nội dung và danh sách năm thành viên vẫn được giữ nguyên.
+- Mình mô phỏng trình duyệt ở 320, 375, 390, 768, 1024 và 1366px: không tràn ngang; hai thẻ xếp dọc trên điện thoại và cạnh nhau trên màn hình lớn.
+- Mình kiểm tra menu ở 320px, liên kết tới mục mới, đủ năm nhãn thành viên và bản dịch VI/EN; không có lỗi JavaScript hoặc yêu cầu tài nguyên thất bại.
+- Chưa thử trên thiết bị thật.
+
+## Tinh chỉnh hiệu ứng tuyết
+
+- Mình làm các bông tuyết thành sprite Canvas sáu nhánh, thay đổi kích thước/tốc độ và lắc nhẹ theo gió khi rơi liên tục từ trên xuống.
+- Mình tăng mật độ vừa phải (24 hạt trên điện thoại, 40 trên màn hình lớn) và giảm độ đặc của một số nền sáng để tuyết vẫn thấy được phía sau nội dung.
+- Canvas vẫn phủ toàn màn hình nhưng không nhận thao tác chuột/chạm; hiệu ứng tiếp tục chuyển mờ giữa tuyết và bầu trời đêm, đồng thời đứng yên khi bật giảm chuyển động.
+- Mình xác nhận bằng trình duyệt rằng vị trí tuyết thay đổi theo thời gian và hiệu ứng chuyển đổi đổi dần giữa hai theme; chưa thử trên thiết bị thật.
+
+## Thêm mini game và hiệu ứng nền theo giao diện
+
+- Mình thêm mini game khủng long vẽ bằng Canvas, có điểm, tốc độ tăng theo thời gian, va chạm, Game Over và nút chơi lại.
+- Người chơi có thể bắt đầu/nhảy bằng Space, phím mũi tên lên hoặc nút cảm ứng; nhãn, trạng thái và hướng dẫn hỗ trợ VI/EN.
+- Mình thay nền hạt cũ bằng bầu trời đêm có trăng/sao ở giao diện tối và tuyết rơi ở giao diện sáng; hai hiệu ứng chuyển đổi mờ dần và giữ lựa chọn giao diện đã lưu.
+- Khi bật giảm chuyển động, hiệu ứng nền giữ hình tĩnh; số lượng hạt được giới hạn thấp hơn trên màn hình nhỏ.
+- Mình kiểm tra mô phỏng trình duyệt ở 320, 375, 390, 768, 1024 và 1366px; không phát hiện tràn ngang. Đã kiểm tra bàn phím, nút nhảy, điểm, Game Over, chơi lại, chuyển giao diện, lưu lựa chọn và giảm chuyển động.
+- Chưa kiểm tra trên điện thoại vật lý.
+
+## Bổ sung mục Dự án và rà soát responsive
+
+- Mình thêm mục Dự án với portfolio cá nhân được ghi rõ là bài tập thực hành FIT4014 A3 và ảnh minh họa riêng; không đưa ra tuyên bố thành tích hoặc dự án thương mại.
+- Mình thêm liên kết mục Dự án vào điều hướng và bổ sung nội dung tiếng Anh tương ứng.
+- Mình giữ biểu mẫu chỉ xác thực phía trình duyệt, điều chỉnh nhãn nút và làm rõ rằng thông tin hợp lệ không đồng nghĩa email đã được gửi.
+- Mình tăng chiều cao tối thiểu của các nút điều khiển đầu trang lên 44px để thao tác cảm ứng thuận tiện hơn.
+- Mình mô phỏng viewport 320, 375, 390, 768, 1024 và 1366px trên trình duyệt: không có tràn ngang; mục Dự án, biểu mẫu và footer đều nằm trong khung nhìn, ảnh minh họa tải đúng tỷ lệ.
+- Mình kiểm tra menu mở/đóng ở điện thoại, xác thực biểu mẫu khi bỏ trống/nhập email sai/nhập hợp lệ, chuyển VI/EN và mở/đóng lightbox; không có lỗi JavaScript hoặc yêu cầu tài nguyên lỗi trong lần kiểm tra cuối.
+- Đây là kiểm tra mô phỏng trong trình duyệt, chưa kiểm tra trên thiết bị thật.
+
 ## Điều chỉnh giao diện
 
 - Mình bỏ mục Dự án học tập khỏi trang và menu điều hướng.
