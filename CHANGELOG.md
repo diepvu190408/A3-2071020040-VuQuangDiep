@@ -1,5 +1,11 @@
 # Nhật ký thay đổi
 
+## Xác nhận đồng bộ GitHub Pages · 25/11/2026
+
+- Mình mở website công khai và xác nhận đã có các mục Dự án, Quê hương và Gia đình, cùng game khủng long.
+- GitHub Actions báo triển khai Pages thành công từ commit `2fd3e06255c5f93bbb7a79189d70507ecd603777` trên nhánh `main`.
+- Mình cập nhật README để trạng thái báo cáo phản ánh đúng phiên bản đang được triển khai; kiểm tra này không thay thế việc thử trên thiết bị thật.
+
 ## Rà soát responsive và tương tác · 25/11/2026
 
 - Mình kiểm tra lại website ở 320, 375, 390, 768, 1024, 1366 và 1920px; không phát hiện tràn ngang hoặc hình ảnh bị thiếu.

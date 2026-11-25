@@ -77,7 +77,7 @@ Thông tin cá nhân trong trang do mình cung cấp. Mình có sử dụng AI �
 
 - Bản trong repository hiện có các mục Dự án, Quê hương và Gia đình, mini game, biểu mẫu kiểm tra phía trình duyệt, cùng hiệu ứng nền theo giao diện.
 - Mô phỏng viewport trong trình duyệt ở 320, 375, 390, 768, 1024, 1366 và 1920px không phát hiện tràn ngang; nội dung chính nằm trong khung nhìn.
-- Lần kiểm tra website GitHub Pages ngày 25/11/2026 cho thấy bản public chưa có một số cập nhật trong repository, gồm mục Dự án, Quê hương và Gia đình và mini game. Cần push các thay đổi sau khi rà soát để cập nhật trang public.
+- Đã kiểm tra lại website GitHub Pages ngày 25/11/2026: bản công khai hiển thị các mục Dự án, Quê hương và Gia đình, mini game cùng các phần còn lại. Workflow GitHub Pages triển khai thành công commit `2fd3e06255c5f93bbb7a79189d70507ecd603777`; xem [website công khai](https://diepvu190408.github.io/A3-2071020040-VuQuangDiep/).
 - Chưa có bộ test tự động trong repository; mô phỏng trình duyệt không thay thế việc thử trên thiết bị thật.
 
 ## Tạo commit và push
